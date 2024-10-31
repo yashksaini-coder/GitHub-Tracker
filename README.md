@@ -4,30 +4,6 @@
 
 Welcome to **GitHub Tracker**, a web app designed to help you monitor and analyze the activity of GitHub users. Whether you’re a developer, a project manager, or just curious, this tool simplifies tracking contributions and activity across repositories! 🚀👩‍💻
 
-<p align="center">
-  <img src="public/crl.png" alt="github-tracker">
-</p>
-<table align="center">
-    <thead align="center">
-        <tr border: 2px;>
-            <td><b>🌟 Stars</b></td>
-            <td><b>🍴 Forks</b></td>
-            <td><b>🐛 Issues</b></td>
-            <td><b>🔔 Open PRs</b></td>
-            <td><b>🔕 Close PRs</b></td>
-        </tr>
-     </thead>
-    <tbody>
-      <tr>
-          <td><img alt="Stars" src="https://img.shields.io/github/stars/mehul-m-prajapati/github_tracker?style=flat&logo=github"/></td>
-          <td><img alt="Forks" src="https://img.shields.io/github/forks/mehul-m-prajapati/github_tracker?style=flat&logo=github"/></td>
-          <td><img alt="Issues" src="https://img.shields.io/github/issues/mehul-m-prajapati/github_tracker?style=flat&logo=github"/></td>
-          <td><img alt="Open Pull Requests" src="https://img.shields.io/github/issues-pr/mehul-m-prajapati/github_tracker?style=flat&logo=github"/></td>
-          <td><img alt="Closed Pull Requests" src="https://img.shields.io/github/issues-pr-closed/mehul-m-prajapati/github_tracker?style=flat&color=critical&logo=github"/></td>
-      </tr>
-    </tbody>
-</table>
-
 ---
 
 ## 📊 What is GitHub Tracker?
@@ -62,7 +38,7 @@ To set up and run **GitHub Tracker** locally, follow these steps:
 
 1. Clone the repository to your local machine:
 ```bash
-$ git clone https://github.com/yourusername/github-tracker.git
+$ git clone https://github.com/yashksaini-coder/GitHub-Tracker
 ```
 
 2. Navigate to the project directory:
@@ -78,6 +54,7 @@ $ npm run dev
 
 4. Run the backend
 ```bash
+$ cd backend
 $ npm i
 $ npm start
 ```
@@ -92,13 +69,37 @@ $ npm start
 
 ---
 
-# 👀 Our Contributors
+<a href="https://github.com/yashksaini-coder">
+    <table>
+        <tbody>
+            <tr>
+                <td align="left" valign="top" width="14.28%">
+                    <img src="https://github.com/yashksaini-coder.png?s=60" width="130px;"/>
+                    <br/>
+                    <h4 align="center">
+                        <b>Yash K. Saini</b>
+                    </h4>
+                    <div align="center">
+                        <p>(Author)</p>
+                    </div>
+                </td>
+                <td align="left" valign="top" width="85%">
+                    <p>
+                        👋 Hi there! I'm <u><em><strong>Yash K. Saini</strong></em></u>, a self-taught software developer and a computer science student from India.
+                    </p>
+                    <ul>
+                     <li>
+                        I love building & contributing to Open Source software solutions & projects that help solve real-world problems.
+                    </li>
+                    <li>
+                        I want to build products & systems that can benefit & solve problems for many other DEVs.
+                    </li>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</a>
 
-- We extend our heartfelt gratitude for your invaluable contribution to our project.
-- Make sure you show some love by giving ⭐ to our repository.
-
-<div align="center">
-  <a href="https://github.com/mehul-m-prajapati/github_tracker">
-    <img src="https://contrib.rocks/image?repo=mehul-m-prajapati/github_tracker&&max=1000" />
-  </a>
-</div>
+<p align="center">
+    <strong>🌟 If you find this project helpful, please give it a star on GitHub! 🌟</strong>
+</p>
