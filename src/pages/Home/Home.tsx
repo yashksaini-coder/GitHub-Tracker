@@ -210,7 +210,7 @@ const Home: React.FC = () => {
           gap: 2,
         }}
       >
-        <Tabs value={tab} onChange={(e, newValue) => setTab(newValue)} sx={{ flex: 1 }}>
+        <Tabs value={tab} onChange={(_e, newValue) => setTab(newValue)} sx={{ flex: 1 }}>
           <Tab label={`Issues (${filterData(issues, issueFilter).length})`} />
           <Tab label={`Pull Requests (${filterData(prs, prFilter).length})`} />
         </Tabs>

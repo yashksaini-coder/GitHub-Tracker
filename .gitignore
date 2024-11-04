@@ -1,52 +1,70 @@
-# Node modules
-node_modules/
-package-lock.json
-# Logs
-logs
-*.log
-npm-debug.log*
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Environment variables
+# Testing
+/coverage
+
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Build output
-dist/
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend
+/backend
+backend/
+*.log
+*.pid
+*.seed
+*.pid.lock
+node_modules/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp
+.pnp.js
+coverage/
 build/
-
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Yarn integrity file
-.yarn-integrity
-
-# Editor and IDE specific files
+dist/
+.DS_Store
 .idea/
 .vscode/
-*.sublime-workspace
-*.sublime-project
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-*.swp
-
-# Temporary files
-tmp/
-temp/
-
-# Coverage directory
-coverage/
-
-# TypeScript cache
-*.tsbuildinfo
-
+# Node modules
+node_modules/
+package-lock.json
 
 # Logs
 logs
@@ -73,3 +91,6 @@ dist-ssr
 *.sln
 *.sw?
 .vercel
+
+# Ignore all files in the backend directory
+backend/*
